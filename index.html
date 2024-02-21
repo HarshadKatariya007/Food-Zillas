@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Food Zillas</title>
+</head>
+
+<body>
+    <!-- Footer Menu -->
+
+    <div class="footer-bar d-xl-none position-fixed start-0 end-0 bottom-0 bg-white">
+
+        <nav class="nav">
+            <a href="#"
+                class="nav__link d-flex flex-column align-items-center justify-content-center overflow-hidden text-decoration-none text-dark">
+                <i class="bi bi-cart-fill"></i>
+                <span class="nav_text">Shop</span>
+            </a>
+            <a href="#"
+                class="nav__link  d-flex flex-column align-items-center justify-content-center overflow-hidden text-decoration-none text-dark">
+                <i class="bi bi-person-fill"></i>
+                <span class="nav_text">My Account</span>
+            </a>
+            <a href="#"
+                class="nav__link  d-flex flex-column align-items-center justify-content-center overflow-hidden text-decoration-none text-dark">
+                <i class="bi bi-search"></i>
+                <span class="nav_text">Search</span>
+            </a>
+            <a href="#"
+                class="nav__link  d-flex flex-column align-items-center justify-content-center overflow-hidden text-decoration-none text-dark">
+                <div class="icon-2 d-block position-relative">
+                    <i class="bi bi-heart-fill"></i>
+                    <span class="yellow-i rounded-circle position-absolute">0</span>
+                </div>
+                <span class="nav_text">Wishlist</span>
+            </a>
+            <a href="#"
+                class="nav__link  d-flex flex-column align-items-center justify-content-center overflow-hidden text-decoration-none text-dark">
+                <div class="icon-2 d-block position-relative">
+                    <i class="bi bi-cart-fill"></i>
+                    <span class="yellow-i rounded-circle position-absolute">0</span>
+                </div>
+                <span class="nav_text">Cart</span>
+            </a>
+        </nav>
+    </div>
+
+    <header class="navbar navbar-expand-lg navbar-light sticky-top w-100 bg-white">
+        <div class="container">
+            <a href="index.html" class="navbar-brand font-monospace fs-1 text-success fw-bold">Food Zillas</a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse">
+
+                <ul class="navbar-nav ms-4 gap-2">
+                    <li class="nav-item px-2">
+                        <a href="#" class="nav-link  fw-bold fs-6">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="#" class="nav-link fw-bold fs-6">Menu</a>
+
+
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="#" class="nav-link fw-bold fs-6">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-6 fw-bold" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                        </a>
+                        <div class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
+                            <div class="d-flex">
+                                <ul class="list-unstyled">
+                                    <li class="px-4 mb-3 mt-3">Shop List</li>
+                                    <li class="p-2"><a class="dropdown-item" href="#">Shop - 3 Column</a></li>
+                                    <li class="p-2"><a class="dropdown-item" href="#">Shop - 4 Column</a></li>
+                                    <li class="p-2"><a class="dropdown-item" href="#">Shop - Grid</a></li>
+                                    <li class="p-2"><a class="dropdown-item" href="#">Shop - Listing</a></li>
+                                </ul>
+                                <div class="h-line"></div>
+                                <ul class="list-unstyled">
+                                    <li class="px-4 mb-3 mt-3">Product</li>
+                                    <li class="p-2"><a class="dropdown-item" href="#">Product Sidebar</a></li>
+                                    <li class="p-2"><a class="dropdown-item" href="#">Bought Together</a></li>
+                                    <li class="p-2"><a class="dropdown-item" href="#">Product Countdown</a></li>
+                                    <li class="p-2"><a class="dropdown-item" href="#">Grouped Product</a></li>
+                                </ul>
+                                <div class="banner-png p-4">
+                                    <img src="image/banner-pizza.jpg" class="img-fluid rounded-2">
+                                    <h2 class="position-absolute text-white fs-3 m-2">Sale 25%</h2>
+                                    <p class="position-absolute text-white fs-6 m-2">On Food Menu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-6 fw-bold" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="p-2"><a class="dropdown-item" href="#">Blog List</a></li>
+                            <li class="p-2"><a class="dropdown-item" href="#">Blog Grid</a></li>
+                            <li class="p-2"><a class="dropdown-item" href="#">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="#" class="nav-link fw-bold fs-6">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-5 new-hover">
+                    <li class="nav-item border border-dark rounded-circle px-1 ms-2">
+                        <a href="#" class="nav-link text-dark fs-5 ">
+                            <i class="bi bi-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item border border-dark rounded-circle px-1 ms-2 j-click">
+                        <a href="#" class="nav-link text-dark fs-5 ">
+                            <i class="bi bi-person-fill"></i>
+                        </a>
+                        <div class="login-container position-absolute top-100">
+                            <div class="circle circle-one"></div>
+                            <div class="form-container">
+                                <img src="image//Png/illustration.png" class="illustration">
+                                <h5 class="text-warning">Sign In
+                                    <span class="sign-in-text">Create An Account</span>
+                                </h5>
+                                <form>
+                                    <input type="text" placeholder="Username" required>
+                                    <input type="password" placeholder="Password" required>
+                                    <button>LogIn</button>
+                                </form>
+                                <div class="register-forget">
+                                    <a href="#" class="text-warning text-decoration-none">Register</a>
+                                    <a href="#" class="text-warning text-decoration-none">Forgot Password</a>
+                                </div>
+                            </div>
+                            <div class="circle circle-two"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item border border-dark rounded-circle px-1 ms-2">
+                        <a href="#" class="nav-link text-dark fs-5 position-relative">
+                            <i class="bi bi-heart-fill"></i>
+                        <span class="yellow-i-1 rounded-circle position-absolute">0</span>
+                    </a>
+                </li>
+                <li class="nav-item border border-dark rounded-circle px-1 ms-2">
+                    <a href="#" class="nav-link text-dark fs-5 position-relative" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="bi bi-cart-fill"></i>
+                        <span class="yellow-i-1 rounded-circle position-absolute">0</span>
+                    </a>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Shoping Cart</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body text-center">
+                                No Products In The Cart
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="offcanvas offcanvas-start bg-dark" id="menu">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close ms-auto btn-close-white shadow-none"
+                        data-bs-dismiss="offcanvas" data-bs-target="#menu"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <nav class="navbar-collapse">
+                        <ul class="p-0 list-unstyled w-100">
+                            <li class="nav-item py-2">
+                                <a href="#" class="nav-link text-white fs-6 d-block w-100 border-bottom">Home</a>
+                            </li>
+                            <li class="nav-item py-2">
+                                <a href="#" class="nav-link text-white fs-6 d-block w-100 border-bottom">Menu</a>
+                            </li>
+                            <li class="nav-item py-2">
+                                <a href="#" class="nav-link text-white fs-6 d-block w-100 border-bottom">About</a>
+                            </li>
+                            <li class="nav-item py-2 position-relative">
+                                <a href="#menu-2" class="nav-link text-white fs-6 d-block w-100 border-bottom"
+                                    role="button" data-bs-toggle="collapse">Shop <i
+                                        class="bi bi-caret-down-fill position-absolute end-0"></i></a>
+
+                                <div class="collapse" id="menu-2">
+                                    <div class="card card-body bg-dark">
+                                        <ul class="list-unstyled">
+                                            <li class="p-2"><a class="text-white text-decoration-none" href="#">Shop - 3
+                                                    Column</a></li>
+                                            <li class="p-2"><a class="text-white text-decoration-none" href="#">Shop - 4
+                                                    Column</a></li>
+                                            <li class="p-2"><a class="text-white text-decoration-none" href="#">Shop -
+                                                    Grid</a></li>
+                                            <li class="p-2"><a class="text-white text-decoration-none" href="#">Shop -
+                                                    Listing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="nav-item py-2 position-relative">
+                                <a href="#menu-3" class="nav-link text-white fs-6 d-block w-100 border-bottom"
+                                    data-bs-toggle="collapse" role="button">Blog
+                                    <i class="bi bi-caret-down-fill position-absolute end-0"></i>
+                                </a>
+
+                                <div class="collapse" id="menu-3">
+                                    <div class="card card-body bg-dark">
+                                        <ul class="list-unstyled">
+                                            <li class="p-2"><a class="text-white text-decoration-none" href="#">Blog
+                                                    List</a></li>
+                                            <li class="p-2"><a class="text-white text-decoration-none" href="#">Shop
+                                                    Grid</a></li>
+                                            <li class="p-2"><a class="text-white text-decoration-none" href="#">Shop
+                                                    Single</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item py-2">
+                                <a href="#" class="nav-link text-white fs-6 d-block w-100 border-bottom">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner position-relative">
+        <div class="container">
+            <div id="main">
+                <div class="overly position-absolute top-0 w-100 h-100 end-0"></div>
+                <div class="row">
+                    <div class="col-12 col-md-6 position-relative">
+                        <div class="heading p-5 mt-5 text-center text-md-start ">
+                            <h1
+                                class="text-white text-uppercase display-3 fw-bolder mb-2 wow animate__animated animate__fadeInUp">
+                                Unlimeted Medium <span class="text-warning">Pizza</span></h1>
+                            <h5 class="text-success fs-5 fw-bold mb-3 wow animate__animated animate__fadeInUp">Medium
+                                2-Toping* Pizza</h5>
+                            <p class="text-white fs-6 text-capitalize mb-4 wow animate__animated animate__fadeInUp">
+                                *Additional charge for premium toppings.
+                                Minimum of 2 required.</p>
+                            <div class="d-md-flex align-items-center gap-4 position-relative">
+                                <button
+                                    class="rounded-2 px-2 py-2 text-dark fw-bold border-0 bg-warning mb-4 mb-lg-0 px-lg-4 animate__animated animate__fadeInUp">Order
+                                    Now</button>
+                                <h5 class="text-success display-6 fw-bold wow animate__animated animate__wobble">$12.99
+                                </h5>
+                                <h6
+                                    class="text-secondary fw-bold position-absolute top-0 start-50 d-none d-lg-block ms-4 animate__animated animate__rotateInUpRight">
+                                    $19.99</h6>
+                            </div>
+                        </div>
+                        <div class="left-img">
+                            <div class="left-img-1 overflow-hidden">
+                                <img src="image/Png/h1_shape-7.png"
+                                    class="position-absolute end-100 top-0 wow animate__animated animate__fadeInLeft"
+                                    id="shape-7">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 position-relative ">
+                        <div class="container position-relative">
+                            <div class="pizza-png img-fluid mt-3 wow animate__animated animate__rubberBand">
+                                <img src="image/Png/pngimg.com - pizza_PNG44092.png " class="img-fluid rellax"
+                                    data-rellax-speed="-3" data-rellax-percentage="0.5">
+                                <img src="image/Png/h1_shape-6.png" class="position-absolute end-0 top-0 r-1 rellax"
+                                    data-rellax-speed="-4" data-rellax-percentage="0.5">
+                            </div>
+                            <div class="position-absolute tometo wow animate__animated animate__fadeInDown">
+                                <img src="image/Png/h1_tomato.png" id="tometo">
+                            </div>
+                            <div class="position-absolute shape-5 wow animate__animated animate__fadeInUp">
+                                <img src="image/Png/h1_shape-5.png" id="shape-5">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu  -->
+    <section class="menu py-5 position-relative">
+        <div class="container position-relative">
+            <a href="#">
+                <button class="border-0 rounded-3 position-absolute menu-btn text-white d-none d-md-block">Menu</button>
+                <button class="border-0 rounded-3 position-absolute menu-btn-m text-white d-md-none">Menu</button>
+            </a>
+            <div class="menu-items align-items-center text-uppercase">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-11 col-md-6 col-xl-1 wow animate__animated animate__fadeInUp animate__slow">
+                        <div class="burger-combo text-center w-100">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/Png/burger-combo.png">
+
+                            </a>
+
+                            <span class="text-centerd">Combo</span>
+                        </div>
+
+                    </div>
+                    <div
+                        class="col-11 col-sm-6 col-md-6 col-xl-1 wow animate__animated animate__fadeInUp animate__slower">
+                        <div class="burger-combo text-center w-100">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/Png/category-22.png">
+
+                            </a>
+                            <span class="text-centerd">Menus</span>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-6 col-xl-1 wow animate__animated animate__fadeInUp animate__slow">
+                        <div class="burger-combo text-center w-100">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/Png/pizza.png">
+
+                            </a>
+                            <span class="text-centerd">Pizza</span>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-6 col-xl-1 wow animate__animated animate__fadeInUp animate__slower">
+                        <div class="burger-combo text-center w-100">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/Png/category-44.png">
+
+                            </a>
+                            <span class="text-centerd">Meals</span>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-6 col-xl-1 wow animate__animated animate__fadeInUp animate__slow">
+                        <div class="burger-combo text-center w-100">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/Png/burger.png">
+
+                            </a>
+                            <span class="text-centerd">Burger</span>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-6 col-xl-1 wow animate__animated animate__fadeInUp animate__slower">
+                        <div class="burger-combo text-center w-100">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/Png/category-33.png">
+
+                            </a>
+                            <span class="text-centerd">Chicken</span>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-6 col-xl-1 wow animate__animated animate__fadeInUp animate__slow">
+                        <div class="burger-combo text-center w-100">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/Png/category7.png">
+
+                            </a>
+                            <span class="text-center">Sauces</span>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-6 col-xl-1 wow animate__animated animate__fadeInUp animate__slower">
+                        <div class="burger-combo text-center w-100">
+                            <a href="#" class="text-decoration-none">
+                                <img src="image/Png/coffee.png">
+                            </a>
+                            <span class="text-centerd">Drink</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="w-100 menu-2 overflow-hidden p-lg-4">
+            <div class="mini-header mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mt-4">
+                            <div class="box-1 bg-white rounded-1">
+                                <div class="d-flex">
+                                    <div class="col-6">
+                                        <h3>Any Day<br>Offers</h3>
+                                        <p>NEW PHENOMENON<br>BURGER TASTE</p>
+                                        <p class="text-success fw-bold fs-5">$12.90</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="box-img-1 position-relative">
+                                            <img src="image/Png/h1_banner1-2.png" class="scale-1 position-absolute">
+                                            <div class="box-img-2 position-relative">
+                                                <img src="image/Png/h1_banner1-1.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-4 mt-4">
+                            <div class="box-1 bg-success text-white rounded-1">
+                                <div class="d-flex">
+                                    <div class="col-6">
+                                        <h3 class="">Othe<br>Flavors</h3>
+                                        <p class="">SAVE ROOM<br> WE MADE SALATS</p>
+                                        <p class="text-warning fw-bold fs-5">$12.90</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="box-img-1 px-1 position-relative">
+                                            <img src="image/Png/h1_banner2-1.png" class="scale-1 position-absolute">
+                                            <div class="box-img-2 position-relative">
+                                                <img src="image/Png/h1_banner2-2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-4 mt-4">
+                            <div class="box-1 bg-white rounded-1">
+                                <div class="d-flex">
+                                    <div class="col-6">
+                                        <h3 class="mb-5">Find A <br>Food Store </h3>
+                                        <p class="fw-bold fs-5">Contact</p>
+                                    </div>
+                                    <div class="col-6 box-img-1 position-relative">
+                                        <img src="image/Png/h1_banner2-1.png" class="scale-1 position-absolute">
+                                        <div class="box-img-2 position-relative">
+                                            <img src="image/Png/h1_banner3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Dishes Section -->
+    <section class="dishes">
+        <div class="container">
+            <h1 class="text-center mt-5 fw-bold">Popular Dishes</h1>
+            <div class="list">
+                <div class="d-flex align-items-center mt-5 justify-content-center ">
+                    <ul class="list-unstyled text-uppercase d-none d-md-flex">
+                        <li>
+                            <a href="#" class="text-decoration-none text-dark active fw-bold">Pizza</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-dark fw-bold">Sushi</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-dark fw-bold">Salats</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-dark fw-bold">Burger</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-dark fw-bold">Dersest</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dishes-img mt-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-3 mb-4">
+                        <div class="img-1">
+                            <div class="img-2 position-relative me-2 ms-2 py-4">
+                                <img src="image/Png/4-1-450x450.png" style="width:200px; height:200px;"
+                                    class="d-block me-auto ms-auto">
+                                <div class="icno-for-detail position-absolute top-0 end-0 px-3 py-3 text-secondary">
+                                   
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul class="list-unstyled d-flex p-3 gap-2 mb-0">
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="detail-2 py-0 px-3">
+                                    <h5>Black coffee</h5>
+                                    <p class="fw-bold text-secondary">Browse unique Coca-Cola products, clothing, &
+                                        accessories, or customize...</p>
+                                    <h6 class="text-warning fw-bolder">£11.76
+                                        <span class="bg-warning py-1 px-2 rounded-3 text-dark float-end"><i
+                                              class="bi bi-basket2-fill"></i></span>
+                                        <div class="open-popup d-inline float-end me-3 bg-warning text-dark py-1 px-2 rounded-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            <i class="bi bi-eye-fill"></i>
+                                        </div>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="col-12 col-md-10 me-md-auto ms-md-auto">
+                                    <div class="modal-dialog modal-fullscreen-md-down modal-dialog-centered">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Black Coffee Details</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                          </div>
+                                          <div class="modal-body">
+                                              <div class="row">
+                                                <div class="col-12 col-md-6 ">
+                                                    <img src="image/Png/4-1-450x450.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <h3 class="mb-4">Black Coffee</h3>
+                                                    <p class="open-popup-text fw-bold text-secondary">Black coffee is simply coffeewith nothing added – no cream, no milk, no sweetener.</p>
+                                                    <ul class="list-unstyled d-flex gap-2 mb-4">
+                                                        <li class="text-warning">
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </li>
+                                                        <li class="text-warning">
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </li>
+                                                        <li class="text-warning">
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </li>
+                                                        <li class="text-warning">
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </li>
+                                                        <li class="text-secondary">
+                                                            <i class="bi bi-star"></i>
+                                                        </li>
+                                                        <li>(4)</li>
+                                                    </ul>
+                                                    <ol class="list-unstyled">
+                                                        <li class="fw-bold py-3">Price :- 
+                                                            <span class="float-end">£11.76</span>
+                                                        </li>
+                                                        <li class="fw-bold">Type :- 
+                                                            <span class="float-end">Drink</span>
+                                                        </li>
+                                                        <li class="fw-bold py-3">Quantity :- 
+                                                            <span class="float-end">
+                                                                <div class="wrapper">
+                                                                    <span class="minus">-</span>
+                                                                    <span class="num">01</span>
+                                                                    <span class="plus">+</span>
+                                                                  </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="fw-bold py-4 text-center">
+                                                            <button class="rounded-2 px-4 py-2 text-dark fw-bold border-0 bg-warning fs-6">Add To Cart</button>
+                                                        </li>
+                                                        <li class="fw-bold py-0 text-center">
+                                                            <button class="rounded-2 px-5 py-2 text-dark fw-bold border-0 bg-warning fs-6">Buy Now</button>
+                                                        </li>
+                                                    </ol>
+                                                </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-3 mb-4">
+                        <div class="img-1">
+                            <div class="img-2 position-relative me-2 ms-2 py-4">
+                                <img src="image/Png/5-1.png" style="width:200px; height:200px;"
+                                    class="d-block me-auto ms-auto">
+                                <div class="icno-for-detail position-absolute top-0 end-0 px-3 py-3 text-secondary">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul class="list-unstyled d-flex p-3 gap-2 mb-0">
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-half"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="detail-2 py-0 px-3">
+                                    <h5>Blueberry Shake</h5>
+                                    <p class="fw-bold text-secondary">Iced coffee is a type of coffee beverage served
+                                        chilled, brewed variously with the...</p>
+                                    <h6 class="text-warning fw-bolder">£10.68
+                                        <span class="bg-warning py-1 px-2 rounded-3 text-dark float-end"><i
+                                                class="bi bi-basket2-fill"></i></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mb-4">
+                        <div class="img-1">
+                            <div class="img-2 position-relative me-2 ms-2 py-4">
+                                <img src="image/Png/36-1-450x450.png" style="width:200px; height:200px;"
+                                    class="d-block me-auto ms-auto">
+                                <div class="icno-for-detail position-absolute top-0 end-0 px-3 py-3 text-secondary">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul class="list-unstyled d-flex p-3 gap-2 mb-0">
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="detail-2 py-0 px-3">
+                                    <h5>Pepperoni Calzone</h5>
+                                    <p class="fw-bold text-secondary">Piled with shrimp, calamari, clams, mussels,
+                                        surimi and stretchy mozzarella...</p>
+                                    <h6 class="text-warning fw-bolder">£12.00
+                                        <span class="bg-warning py-1 px-2 rounded-3 text-dark float-end"><i
+                                                class="bi bi-basket2-fill"></i></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mb-4">
+                        <div class="img-1">
+                            <div class="img-2 position-relative me-2 ms-2 py-4">
+                                <img src="image/Png/16-1-450x450.png" style="width:200px; height:200px;"
+                                    class="d-block me-auto ms-auto">
+                                <div class="icno-for-detail position-absolute top-0 end-0 px-3 py-3 text-secondary">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul class="list-unstyled d-flex p-3 gap-2 mb-0">
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-half"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="detail-2 py-0 px-3">
+                                    <h5>Fresh Lime</h5>
+                                    <p class="fw-bold text-secondary">Browse unique Coca-Cola products, clothing, &
+                                        accessories, or customize...</p>
+                                    <h6 class="text-warning fw-bolder">£16.02
+                                        <span class="bg-warning py-1 px-2 rounded-3 text-dark float-end"><i
+                                                class="bi bi-basket2-fill"></i></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mb-3 mt-md-5">
+                        <div class="img-1">
+                            <div class="img-2 position-relative me-2 ms-2 py-4">
+                                <img src="image/Png/1-1-450x450.png" style="width:200px; height:200px;"
+                                    class="d-block me-auto ms-auto">
+                                <div class="icno-for-detail position-absolute top-0 end-0 px-3 py-3 text-secondary">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul class="list-unstyled d-flex p-3 gap-2 mb-0">
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-half"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="detail-2 py-0 px-3">
+                                    <h5>Apricot Chicken</h5>
+                                    <p class="fw-bold text-secondary">Crispy bacon, tasty ham, pineapple, onion and
+                                        stretchy mozzarella, finished...</p>
+                                    <h6 class="text-warning fw-bolder">£18.30
+                                        <span class="bg-warning py-1 px-2 rounded-3 text-dark float-end"><i
+                                                class="bi bi-basket2-fill"></i></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mb-4 mt-md-5">
+                        <div class="img-1">
+                            <div class="img-2 position-relative me-2 ms-2 py-4">
+                                <img src="image/Png/26-1-450x450.png" style="width:200px; height:200px;"
+                                    class="d-block me-auto ms-auto">
+                                <div class="icno-for-detail position-absolute top-0 end-0 px-3 py-3 text-secondary">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul class="list-unstyled d-flex p-3 gap-2 mb-0">
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="detail-2 py-0 px-3">
+                                    <h5>Italiano Original</h5>
+                                    <p class="fw-bold text-secondary">Ricotta, sun dried tomatoes, garlic, mozzarella
+                                        cheese, topped with lightly...</p>
+                                    <h6 class="text-warning fw-bolder">£12.63
+                                        <span class="bg-warning py-1 px-2 rounded-3 text-dark float-end"><i
+                                                class="bi bi-basket2-fill"></i></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mb-4 mt-md-5">
+                        <div class="img-1">
+                            <div class="img-2 position-relative me-2 ms-2 py-4">
+                                <img src="image/Png/37-1-450x450.png" style="width:200px; height:200px;"
+                                    class="d-block me-auto ms-auto">
+                                <div class="icno-for-detail position-absolute top-0 end-0 px-3 py-3 text-secondary">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul class="list-unstyled d-flex p-3 gap-2 mb-0">
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="detail-2 py-0 px-3">
+                                    <h5>Pepperoni Pizza</h5>
+                                    <p class="fw-bold text-secondary">Extra-virgin olive oil, garlic, mozzarella cheese,
+                                        onions, mushrooms, green...</p>
+                                    <h6 class="text-warning fw-bolder">£19.75
+                                        <span class="bg-warning py-1 px-2 rounded-3 text-dark float-end"><i
+                                                class="bi bi-basket2-fill"></i></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mt-md-5">
+                        <div class="img-1">
+                            <div class="img-2 position-relative me-2 ms-2 py-4">
+                                <img src="image/Png/27-1-450x450.png" style="width:200px; height:200px;"
+                                    class="d-block me-auto ms-auto">
+                                <div class="icno-for-detail position-absolute top-0 end-0 px-3 py-3 text-secondary">
+                                    <i class="bi bi-basket2-fill"></i>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <ul class="list-unstyled d-flex p-3 gap-2 mb-0">
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li class="text-secondary">
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="detail-2 py-0 px-3">
+                                    <h5>Kiwi Smoothie</h5>
+                                    <p class="fw-bold text-secondary">Iced coffee is a type of coffee beverage served
+                                        chilled, brewed variously with th...</p>
+                                    <h6 class="text-warning fw-bolder">£12.33
+                                        <span class="bg-warning py-1 px-2 rounded-3 text-dark float-end"><i
+                                                class="bi bi-basket2-fill"></i></span>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product text-center mt-5">
+                <button class="border-0 bg-warning px-5 py-3 fw-bold rounded-3 text-center fs-6">All Product</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hot Fresh  -->
+
+    <section class="hot-fresh position-relative">
+        <div class="container">
+            <div class="overly position-absolute top-0 w-100 h-100 end-0"></div>
+            <div class="row">
+                <div class="col-12 col-md-6 position-relative">
+                    <div class="sale-bg position-absolute top-0">
+                        <img src="image/h1_img.png">
+                    </div>
+                    <div class="sale-info-img position-absolute d-none d-md-block rellax " data-rellax-speed="-2"
+                        data-rellax-percentage="0.5">
+                        <img src="image/Png/h1_think.png" class="wow animate__animated animate__fadeInLeftBig">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 position-relative">
+                    <div class="container position-relative">
+                        <div class="sale-info-detail py-5 mt-5 text-center text-md-start position-relative">
+                            <h1 class="text-white text-uppercase display-3 fw-bolder mb-2 font-monospace">Hot Fresh</h1>
+                            <h2 class="text-warning display-1 fw-bold mb-3">HOTDOG</h2>
+                            <div class="thunder-img rellax position-relative" data-rellax-speed="-2"
+                                data-rellax-percentage="1.2">
+                                <img src="image/Png/h1_thunder-1.png"
+                                    class="thun-1 position-absolute wow animate__animated animate__flipInY">
+                                <img src="image/Png/h1_thunder-2.png"
+                                    class="thun-2 position-absolute wow animate__animated animate__flipInY">
+                            </div>
+                            <div class="position-relative">
+                                <button
+                                    class="rounded-2 px-2 py-2 text-dark fw-bold border-0 bg-white mb-4 mb-lg-0 px-lg-4">Order
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recipes py-5 mt-5">
+        <div class="container">
+            <div class="d-flex">
+                <div class="col-12 col-md-8">
+                    <h3 class="mb-5">Top Recipes
+                        <span class="fs-6 float-end ">See all <i
+                                class="bi bi-chevron-right bg-success px-1 py-1 text-white rounded-3"></i></span>
+                    </h3>
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-lg-6 mb-4 m-auto">
+                            <div class="top-detail d-flex">
+                                <div class="top-img">
+                                    <img src="image/Png/4-1-450x450.png" style="height: 150px; width: 150px;">
+                                </div>
+                                <div class="pro-detail mt-5 position-relative w-50">
+                                    <h5 class="fs-6">Black coffee</h5>
+                                    <h6 class="text-secondary">Hot Drink</h6>
+                                    <p class="text-warning fs-6 fw-bold">£12.33</p>
+                                    <span
+                                        class="bg-warning py-1 px-2 rounded-3 text-dark position-absolute top-50 w-1"><i
+                                            class="bi bi-basket2-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4 m-auto">
+                            <div class="top-detail d-flex">
+                                <div class="top-img">
+                                    <img src="image/Png/5-1.png" style="height: 150px; width: 150px;">
+                                </div>
+                                <div class="pro-detail mt-5 position-relative w-50">
+                                    <h5 class="fs-6">Blueberry Shake</h5>
+                                    <h6 class="text-secondary">Cold Drinks</h6>
+                                    <p class="text-warning fs-6 fw-bold">£10.68</p>
+                                    <span
+                                        class="bg-warning py-1 px-2 rounded-3 text-dark position-absolute top-50 w-1"><i
+                                            class="bi bi-basket2-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4 m-auto">
+                            <div class="top-detail d-flex">
+                                <div class="top-img">
+                                    <img src="image/Png/36-1-450x450.png" style="height: 150px; width: 150px;">
+                                </div>
+                                <div class="pro-detail mt-5 position-relative w-50">
+                                    <h5 class="fs-6">Pepperoni Calzone</h5>
+                                    <h6 class="text-secondary">Pizza</h6>
+                                    <p class="text-warning fs-6 fw-bold">£12.00</p>
+                                    <span
+                                        class="bg-warning py-1 px-2 rounded-3 text-dark position-absolute top-50 w-1"><i
+                                            class="bi bi-basket2-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4 m-auto">
+                            <div class="top-detail d-flex">
+                                <div class="top-img">
+                                    <img src="image/Png/16-1-450x450.png" style="height: 150px; width: 150px;">
+                                </div>
+                                <div class="pro-detail mt-5 position-relative w-50">
+                                    <h5 class="fs-6">Fresh Lime</h5>
+                                    <h6 class="text-secondary">Cold Drinks</h6>
+                                    <p class="text-warning fs-6 fw-bold">£16.02</p>
+                                    <span
+                                        class="bg-warning py-1 px-2 rounded-3 text-dark position-absolute top-50 w-1"><i
+                                            class="bi bi-basket2-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4 m-auto">
+                            <div class="top-detail d-flex">
+                                <div class="top-img">
+                                    <img src="image/Png/1-1-450x450.png" style="height: 150px; width: 150px;">
+                                </div>
+                                <div class="pro-detail mt-5 position-relative w-50">
+                                    <h5 class="fs-6">Apricot Chicken</h5>
+                                    <h6 class="text-secondary">Pizza</h6>
+                                    <p class="text-warning fs-6 fw-bold">£18.30</p>
+                                    <span
+                                        class="bg-warning py-1 px-2 rounded-3 text-dark position-absolute top-50 w-1"><i
+                                            class="bi bi-basket2-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div class="top-detail d-flex">
+                                <div class="top-img">
+                                    <img src="image/Png/26-1-450x450.png" style="height: 150px; width: 150px;">
+                                </div>
+                                <div class="pro-detail mt-5 position-relative w-50">
+                                    <h5 class="fs-6">Italiano Original</h5>
+                                    <h6 class="text-secondary">Pizza</h6>
+                                    <p class="text-warning fs-6 fw-bold">£12.63</p>
+                                    <span
+                                        class="bg-warning py-1 px-2 rounded-3 text-dark position-absolute top-50 w-1"><i
+                                            class="bi bi-basket2-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 d-none d-xl-block">
+                    <div class="bg-d px-4">
+                        <img src="image/banner_1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide -->
+    <section class="slide">
+        <div class="container">
+            <div class="slide-2 mt-5 py-5">
+                <div class="owl-carousel owl-theme">
+                    <div>
+                        <div class="bg-white rounded-3 ms-3">
+                            <div class="d-flex mb-0">
+                                <div class="info-s p-4">
+                                    <img src="image/Png/avatar-1.jpg" class="rounded-circle">
+
+                                </div>
+                                <div class="info-s-i mt-4 position-relative w-75 mb-0">
+                                    <h5 class="mb-0 position-relative mt-2" style="font-size: 16px;">Rose
+                                        <span class="position-absolute text-warning end-0 fs-6 mt-1 px-4">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </h5>
+                                    <p class="fs-6" style="font-size: 16px;">Design</p>
+                                </div>
+
+                            </div>
+                            <div class="content mt-0 p-3">
+                                <p class="p-1" style="font-size: 14px;">"I would be lost without restaurant. I would
+                                    like to personally thank you for your outstanding product." </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-white rounded-3 ms-3">
+                            <div class="d-flex mb-0">
+                                <div class="info-s p-4">
+                                    <img src="image/Png/avatar-4.jpg" class="rounded-circle">
+                                </div>
+                                <div class="info-s-i mt-4 position-relative w-75 mb-0">
+                                    <h5 class="mb-0 position-relative">Rose
+                                        <span class="position-absolute text-warning end-0 fs-6 mt-1 px-4">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </h5>
+                                    <p class="fs-6">Design</p>
+                                </div>
+                            </div>
+                            <div class="content mt-0 p-3">
+                                <p class="p-1" style="font-size: 14px;">"I would be lost without restaurant. I would
+                                    like to personally thank you for your outstanding product."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-white rounded-3 ms-3">
+                            <div class="d-flex mb-0">
+                                <div class="info-s p-4">
+                                    <img src="image/Png/avatar-2.jpg" class="rounded-circle">
+
+                                </div>
+                                <div class="info-s-i mt-4 position-relative w-75 mb-0">
+                                    <h5 class="mb-0 position-relative">Rose
+                                        <span class="position-absolute text-warning end-0 fs-6 mt-1 px-4">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </h5>
+                                    <p class="fs-6">Design</p>
+                                </div>
+
+                            </div>
+                            <div class="content mt-0 p-3">
+                                <p class="p-1" style="font-size: 14px;">"I would be lost without restaurant. I would
+                                    like to personally thank you for your outstanding product." </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-white rounded-3 ms-3">
+                            <div class="d-flex mb-0">
+                                <div class="info-s p-4">
+                                    <img src="image/Png/avatar-3.jpg" class="rounded-circle">
+
+                                </div>
+                                <div class="info-s-i mt-4 position-relative w-75 mb-0">
+                                    <h5 class="mb-0 position-relative">Rose
+                                        <span class="position-absolute text-warning end-0 fs-6 mt-1 px-4">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </h5>
+                                    <p class="fs-6">Design</p>
+                                </div>
+
+                            </div>
+                            <div class="content mt-0 p-3">
+                                <p class="p-1" style="font-size: 14px;">"I would be lost without restaurant. I would
+                                    like to personally thank you for your outstanding product." </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-white rounded-3 ms-3">
+                            <div class="d-flex mb-0">
+                                <div class="info-s p-4">
+                                    <img src="image/Png/avatar-4.jpg" class="rounded-circle">
+
+                                </div>
+                                <div class="info-s-i mt-4 position-relative w-75 mb-0">
+                                    <h5 class="mb-0 position-relative">Rose
+                                        <span class="position-absolute text-warning end-0 fs-6 mt-1 px-4">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </h5>
+                                    <p class="fs-6">Design</p>
+                                </div>
+
+                            </div>
+                            <div class="content mt-0 p-3">
+                                <p class="p-1" style="font-size: 14px;">"I would be lost without restaurant. I would
+                                    like to personally thank you for your outstanding product." </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="w-100 poster-1">
+        <div class="container-fluid w-100">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-xl-4 box-2">
+                    <div class="bg-success p-5 overflow-hidden position-relative" style="width: auto; height: 400px;">
+                        <div class="row">
+                            <div class="col-6">
+                                <div
+                                    class="head position-absolute wow animate__animated animate__fadeInUp animate__slow">
+                                    <h3 class="text-white font-monospace display-6">Fast Food</h3>
+                                    <h2 class="text-warning display-3 fw-bold">Meals</h2>
+                                    <p class="text-white">NEW PHENOMENON<br>BURGER TASTE</p>
+                                    <h5 class="text-warning fw-bold display-6 mb-4">$19.90</h5>
+                                    <button
+                                        class="rounded-2 px-2 py-2 text-dark fw-bold border-0 bg-white mb-4 mb-lg-0 px-lg-4">Order
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-6 rellax wow animate__animated animate__bounceInRight"
+                                data-rellax-speed="-1" data-rellax-percentage="0.8">
+                                <img src="image/Png/h1_shape-2.png" class="min-h position-absolute float-end "
+                                    style="width: 430px; height: auto;">
+                            </div>
+                            <div class="hover-img position-absolute">
+                                <img src="image/Png/h1_shape-8.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 box-2">
+                    <div class="p-5 overflow-hidden position-relative"
+                        style="background-color: #db741fff; width: auto; height: 400px;">
+                        <div class="row">
+                            <div class="col-6">
+                                <div
+                                    class="head position-absolute wow animate__animated animate__fadeInUp animate__slow">
+                                    <h3 class="text-white font-monospace display-5">House</h3>
+                                    <h2 class="text-warning display-3 fw-bold">Burger</h2>
+                                    <p class="text-white">NEW PHENOMENON<br>BURGER TASTE</p>
+                                    <h5 class="text-warning fw-bold display-6 mb-4">$12.90</h5>
+                                    <button
+                                        class="rounded-2 px-2 py-2 text-dark fw-bold border-0 bg-white mb-4 mb-lg-0 px-lg-4">Order
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-6 rellax wow animate__animated animate__bounceInRight"
+                                data-rellax-speed="-1" data-rellax-percentage="0.8">
+                                <img src="image/Png/h1_shape-3.png" class=" min-h position-absolute float-end "
+                                    style="width: 400px; height: auto;">
+                            </div>
+                            <div class="hover-img position-absolute">
+                                <img src="image/Png/h1_shape-8.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-4 box-2">
+                    <div class="bg-warning p-5 overflow-hidden position-relative" style="width: auto; height: 400px;">
+                        <div class="row">
+                            <div class="col-6">
+                                <div
+                                    class="head position-absolut wow animate__animated animate__fadeInUp animate__slow">
+                                    <h3 class="text-white font-monospace display-5">Hot Fresh</h3>
+                                    <h2 class="text-danger display-3 fw-bold">Salats</h2>
+                                    <p class="text-white">NEW PHENOMENON<br>BURGER TASTE</p>
+                                    <h5 class="text-dark fw-bold display-6 mb-4 ">$10.90</h5>
+                                    <button
+                                        class="rounded-2 px-2 py-2 text-dark fw-bold border-0 bg-white mb-4 mb-lg-0 px-lg-4">Order
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-6 rellax wow animate__animated animate__bounceInRight"
+                                data-rellax-speed="-1" data-rellax-percentage="0.8">
+                                <img src="image/Png/h1_shape-4.png" class="min-h min-h-2 position-absolute float-end "
+                                    style="width: 430px; height: auto;">
+                            </div>
+                            <div class="hover-img position-absolute">
+                                <img src="image/Png/h1_shape-8.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog  -->
+
+    <section class="blog w-100 mt-5 py-5">
+        <div class="container">
+            <div class="col-12">
+                <h3 class="mb-5">Latest News
+                    <span class="fs-6 float-end ">See all <i
+                            class="bi bi-chevron-right bg-success px-1 py-1 text-white rounded-3"></i></span>
+                </h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-xl-4 mb-4 mb-lg-0">
+                    <div class="blog-box overflow-hidden">
+                        <div class="blog-box-1 overflow-hidden">
+                            <img src="image/Png/blog-5-500x330.jpg">
+                        </div>
+                        <div class="blog-box-detail border-1 border-dark">
+                            <div class="blog-title p-4">
+                                <p class="text-secondary"><a href="#"
+                                        class="text-decoration-none text-reset">Uncategorized</a>
+                                    <span>/ September 7,2020</span>
+                                    <span>/ Post By <br>Admin</span>
+                                </p>
+                                <h3 class="fw-bold mb-4">10 Reasons To Do A Digital Detox<br>Challenge</h3>
+                                <p class="fs-6 me-5 mb-4 text-secondary">Ac haca ullamcorper donec ante habi tasse donec
+                                    imperdiet eturpis varius per a augue magna hac. Nec hac…</p>
+                                <button
+                                    class="rounded-2 px-2 py-2 text-dark fw-bold border-0 bg-warning mb-4 mb-lg-0 px-lg-4">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mb-4 mb-lg-0">
+                    <div class="blog-box overflow-hidden">
+                        <div class="blog-box-1 overflow-hidden">
+                            <img src="image/Png/blog-1-500x330.jpg">
+                        </div>
+                        <div class="blog-box-detail border-1 border-dark">
+                            <div class="blog-title p-4">
+                                <p class="text-secondary"><a href="#"
+                                        class="text-decoration-none text-reset">Uncategorized</a>
+                                    <span>/ August 31,2020</span>
+                                    <span>/ Post By <br>Admin</span>
+                                </p>
+                                <h3 class="fw-bold mb-4">The Ultimate Hangover Burger: Egg in<br>a Hole Burger Grilled
+                                    Cheese</h3>
+                                <p class="fs-6 me-5 mb-4 text-secondary">Ac haca ullamcorper donec ante habi tasse donec
+                                    imperdiet eturpis varius per a augue magna hac. Nec hac…</p>
+                                <button
+                                    class="rounded-2 px-2 py-2 text-dark fw-bold border-0 bg-warning mb-4 mb-lg-0 px-lg-4">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mt-4 mt-xl-0">
+                    <div class="blog-box overflow-hidden">
+                        <div class="blog-box-1 overflow-hidden">
+                            <img src="image/Png/blog-2-500x330.jpg">
+                        </div>
+                        <div class="blog-box-detail border-1 border-dark">
+                            <div class="blog-title p-4">
+                                <p class="text-secondary"><a href="#"
+                                        class="text-decoration-none text-reset">Uncategorized</a>
+                                    <span>/ August 31,2020</span>
+                                    <span>/ Post By <br>Admin</span>
+                                </p>
+                                <h3 class="fw-bold mb-4">Traditional Soft Pretzels with<br>Sweet Beer Cheese</h3>
+                                <p class="fs-6 me-5 mb-4 text-secondary">Ac haca ullamcorper donec ante habi tasse donec
+                                    imperdiet eturpis varius per a augue magna hac. Nec hac…</p>
+                                <button
+                                    class="rounded-2 px-2 py-2 text-dark fw-bold border-0 bg-warning mb-4 mb-lg-0 px-lg-4">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="line position-relative">
+        <div class="h-line-1 d-none d-md-block position-absolute top-50 start-0 end-0"></div>
+        <div class="h-line-img text-center position-relative">
+            <a href="index.html" class="font-monospace display-6 text-success fw-bold text-decoration-none d-inline"
+                style="background-color:#171717ff;">Food Zillas</a>
+        </div>
+    </section>
+
+    <section class="footer-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3 mb-4">
+                    <div class="add text-center">
+                        <h4 class="text-white mb-3">Address</h4>
+                        <p class="text-center ">570 8th Ave,<br>New York, NY 10018,<br>United States</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 mb-4">
+                    <div class="add text-center">
+                        <h4 class="text-white mb-3">Book A Table</h4>
+                        <p class="text-center ">Dogfood och Sliders foodtruck.<br>Under Om oss kan ni läsa</p>
+                        <span class="text-warning fs-5">(850) 435-4155</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 mb-4">
+                    <div class="add text-center">
+                        <h4 class="text-white mb-3">Opening Hours</h4>
+                        <p class="text-center ">Monday – Friday: 8am – 4pm<br>Saturday: 9am – 5pm</p>
+                        <ul class="list-unstyled d-flex align-items-center gap-3 text-center justify-content-center">
+                            <li class="px-2 py-1 rounded-circle">
+                                <a href="#" class="text-dark text-reset"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="px-2 py-1 rounded-circle">
+                                <a href="#" class="text-dark text-reset"><i class="bi bi-twitter"></i></a>
+                            </li>
+                            <li class="px-2 py-1 rounded-circle">
+                                <a href="#" class="text-dark text-reset"><i class="bi bi-youtube"></i></a>
+                            </li>
+                            <li class="px-2 py-1 rounded-circle">
+                                <a href="#" class="text-dark text-reset"><i class="bi bi-wordpress"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="add text-center">
+                        <h4 class="text-white mb-3">Newsletter</h4>
+                        <p class="text-center ">Subscribe to the weekly newsletter for all<br>the latest updates</p>
+                        <div class="input-group mb-3 bg-transparent">
+                            <input type="text" class="form-control" placeholder="Your Email.."
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn bg-warning text-dark" type="button" id="button-addon2">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-2 bg-success px-2 py-1">
+        <div class="container">
+            <ul class="list-unstyled d-lg-flex justify-content-between mt-4">
+                <li>
+                    <p class="text-white">Copyright © 2022 <span class="text-warning">Food Zillas</span>. All Rights
+                        Reserved.</p>
+                </li>
+                <li>
+                    <img src="image/Png/footer_img1.png" class="img-fluid">
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 1,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/quantity.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
